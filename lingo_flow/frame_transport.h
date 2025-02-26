@@ -112,11 +112,9 @@ void frame_transport(PIO pio, uint sm,float itnsty) {
         }
     };
 
-    for (int j = 0; j < 2; j++) {
-        for (int i = 0; i < 10; i++) {
-            print_transport(transport_frames[i], pio, sm);
-            sleep_ms(4000); 
-        }
+    for (int i = 0; i < 5; i++) {
+        print_transport(transport_frames[i], pio, sm);
+        sleep_ms(4000); 
     }
 }
 

@@ -17,7 +17,6 @@
       "left": 193.8,
       "attrs": { "volume": "0.1" }
     },
-    { "type": "wokwi-membrane-keypad", "id": "keypad1", "top": -386, "left": -71.2, "attrs": {} },
     { "type": "wokwi-neopixel", "id": "rgb2", "top": 73.3, "left": -183.4, "attrs": {} },
     { "type": "wokwi-neopixel", "id": "rgb3", "top": -3.5, "left": -413.8, "attrs": {} },
     { "type": "wokwi-neopixel", "id": "rgb4", "top": 73.3, "left": -404.2, "attrs": {} },
@@ -135,15 +134,7 @@
     [ "rgb21:VDD", "vcc5:VCC", "green", [ "h0", "v-28.8" ] ],
     [ "rgb22:VDD", "vcc5:VCC", "green", [ "h0", "v-28.8" ] ],
     [ "pico:GP0", "$serialMonitor:RX", "", [] ],
-    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
-    [ "keypad1:C4", "pico:GP2", "green", [ "v0" ] ],
-    [ "keypad1:C3", "pico:GP3", "green", [ "v0" ] ],
-    [ "keypad1:C2", "pico:GP4", "green", [ "v0" ] ],
-    [ "keypad1:C1", "pico:GP5", "green", [ "v0" ] ],
-    [ "keypad1:R4", "pico:GP6", "green", [ "v0" ] ],
-    [ "keypad1:R2", "pico:GP8", "green", [ "v0" ] ],
-    [ "keypad1:R1", "pico:GP9", "green", [ "v0" ] ],
-    [ "keypad1:R3", "pico:GP10", "green", [ "v0" ] ]
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ]
   ],
   "dependencies": {}
 }
